@@ -22,7 +22,7 @@ export default function LocaleLayout({ children, params }) {
             {children}
         </div>
         <footer className={styles.footer}>
-            <span className={styles.disclaimer}>Disclaimer</span>: Our site offers general info, not professional advice. Cryptocurrency investments are risky and past performance doesn't predict future outcomes. Research and seek advice before deciding. We might link to third-party content, but accuracy isn't assured. We're not responsible for errors or actions based on our info. Laws for cryptocurrencies vary; follow your local rules. Using our site means you accept this disclaimer and its risks. Consult experts for personalized advice. Be cautious with crypto matters.
+            <span className={styles.disclaimer}>Disclaimer</span>: Our site offers general info, not professional advice. Cryptocurrency investments are risky and past performance doesn&apos;t predict future outcomes. Research and seek advice before deciding. We might link to third-party content, but accuracy isn&apos;t assured. We&apos;re not responsible for errors or actions based on our info. Laws for cryptocurrencies vary; follow your local rules. Using our site means you accept this disclaimer and its risks. Consult experts for personalized advice. Be cautious with crypto matters.
             Word Coin reserves the right to modify or update this disclaimer at any time without prior notice.
         </footer>
         </body>
