@@ -1,0 +1,61 @@
+@keyframes blink-text {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+
+.home {
+    .hero {
+        height: 650px;
+        background-image: url("./assets/Edutech-Header.jpeg");
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 100%;
+        }
+
+        .content {
+            font-size: 60px;
+            color: white;
+
+            .text {
+                animation: blink-text 1.9s linear infinite;
+            }
+
+            @media (max-width: 767px) {
+                font-size: 30px;
+                margin-bottom: 15px;
+
+                .text {
+                    margin-bottom: 15px;
+                }
+            }
+
+            button {
+                @media (min-width: 767px) {
+                    padding: 10px 33px;
+                    font-size: 23px;
+                }
+            }
+        }
+
+        @media (max-width: 767px) {
+            height: 400px;
+        }
+    }
+
+    .businessSummary {
+        padding: 50px 0 100px 0;
+        max-width: 800px;
+    }
+}

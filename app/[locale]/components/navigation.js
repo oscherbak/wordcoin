@@ -4,12 +4,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {useLocale} from "next-intl";
+import Image from 'next/image';
+import LogoImg from '../assets/logo.png';
+import styles from './navigation.module.scss';
 
 const Navigation = ({ locale }) => {
-    return <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    return <Navbar collapseOnSelect className={styles.navigation} expand="lg" bg="light" variant="light">
+        <Navbar.Brand href="/">
+            <Image src={LogoImg} />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
             <Nav className="mr-auto">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href={`${locale}/about`}>About us</Nav.Link>

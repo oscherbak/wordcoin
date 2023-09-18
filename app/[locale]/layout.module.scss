@@ -1,0 +1,18 @@
+.header {
+    padding: 0 15px;
+}
+
+.main {
+    min-height: 90vh;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+
+    .disclaimer {
+        color: red;
+    }
+}
