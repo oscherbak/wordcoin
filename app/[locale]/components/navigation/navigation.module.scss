@@ -3,4 +3,10 @@
         justify-content: end;
         align-items: end;
     }
+
+    .linkText {
+        @media (min-width: 767px) {
+            padding: 0 10px;
+        }
+    }
 }

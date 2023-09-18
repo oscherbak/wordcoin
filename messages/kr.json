@@ -1,8 +1,20 @@
 {
   "Index": {
-    "title": "test in korean"
+    "header": "한국 교육을 위한 메타버스",
+    "CTAText": "지금 확인하세요",
+    "bodyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim, urna eget placerat vehicula, risus ante elementum erat, a efficitur lacus Massa ut metus. Aliquam a eros arcu. Pellentesque ut convallis nisi. Nullam eu metus lacus. 미 쿨리스 마우리스 전위 ante porta, porttitor magna vitae, eleifend lectus. aenean ex ante, aenean ex ante, aenean ex ante, aenean ex ante, aenean ex ante, aenean ex ante, turpis it amet, eleeifend aliquet erat에 대한 결과, eleifend lectus. mauris vertibulum ante porta, eleifend lectus. mauris mauris vertibulum ante porta, eleifend lectus. feugiat, viverra risus vel, fermentum libero. Proin rhoncus egestas rutrum. Mauris commodo vel felis eget dignissim. Donec facilisis nunc justo, a suscipit purus sagittis quis. Phasellus faucibus sapien vitae varius posuere. Proin condimentum lectus in leo scelerisque varius. Suspendisse 이드 바리우스 eros, vel vulputate dolor. Morbi velit erat, vulputate egestas mi a, sodales laoreet arcu. Nulla porttitor mauris eu ante imperdiet, vel luctus lectus placerat. 비바무스 넌 임시 레오. Cras eu lorem et Tellus dapibus luctus sit amet non lectus. Donec mollis a eros sit amet interdum. Mauris elementum vulputate varius. Aliquam erat volutpat. Suspendisse accumsan turpis quis odio ornare lacinia. Quisque facilisis velit et ornare bibendum. Cras posuere varius felis eu mollis. Donec vitae nisl nec ex rutrum convallis at a arcu. 현관 pretium accumsan auctor. Donec Tellus mi, lacinia eu maximus at, venenatis sed ipsum."
   },
-  "About": {
-    "title": "in korean"
+  "Navigation": {
+    "main": "메인",
+    "metaverseIntroduction": "메타버스 소개",
+    "business": "사업 배경",
+    "corpIntro": "회사 소개",
+    "roadmap": "로드맵",
+    "coinDistribution": "코인 분배",
+    "partners": "파트너"
+  },
+  "Footer": {
+    "highlight": "면책조항",
+    "text": "저희 사이트는 전문적인 조언이 아닌 일반적인 정보를 제공합니다. 암호화폐 투자는 위험하며 과거 실적은 미래 결과를 예측하지 못합니다. 결정하기 전에 조사하고 조언을 구하세요. 제3자 콘텐츠에 링크할 수 있지만 정확성은 그렇지 않습니다. 안심하세요. 우리는 우리 정보에 따른 오류나 조치에 대해 책임을 지지 않습니다. 암호화폐에 대한 법률은 다양하므로 현지 규칙을 따르십시오. 우리 사이트를 사용하는 것은 이 면책 조항과 그 위험을 수락하는 것을 의미합니다. 전문가에게 맞춤 조언을 문의하세요. 암호화폐 관련 문제에 주의하세요. Word Coin은 사전 통지 없이 언제든지 이 면책 조항을 수정하거나 업데이트할 권리를 보유합니다."
   }
 }
