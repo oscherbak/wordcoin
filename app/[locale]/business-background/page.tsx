@@ -24,7 +24,7 @@ const BusinessBackground = () => {
                     height={0}
                     sizes="100vw"
                     style={{ width: '100%', height: 'auto' }}
-                />
+                 alt=""/>
             </div>
             <div className='col-lg-6 mb-3'>
                 <h5><p>1st and 2nd place of which makes Korea&apos;s cultural content hard to enjoy</p></h5>

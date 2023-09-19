@@ -28,7 +28,7 @@ const MetaverseIntroduction = () => {
            height={0}
            sizes="100vw"
            style={{ width: '100%', height: 'auto' }}
-        />
+         alt=""/>
         <br/>
         <br/>
         <br/>
@@ -40,7 +40,7 @@ const MetaverseIntroduction = () => {
             height={0}
             sizes="100vw"
             style={{ width: '100%', height: 'auto' }}
-        />
+         alt=""/>
         <br/>
         <br/>
         <br/>
@@ -113,7 +113,7 @@ const MetaverseIntroduction = () => {
                                 height={0}
                                 sizes="100vw"
                                 style={{ width: '150px', height: 'auto', marginRight: 20 }}
-                            />
+                             alt=""/>
                         </div>
                         <div>
                             <div>
@@ -133,7 +133,7 @@ const MetaverseIntroduction = () => {
                                 height={0}
                                 sizes="100vw"
                                 style={{ width: '150px', height: 'auto', marginRight: 20 }}
-                            />
+                             alt=""/>
                         </div>
                         <div>
                             <div>
@@ -153,7 +153,7 @@ const MetaverseIntroduction = () => {
                                 height={0}
                                 sizes="100vw"
                                 style={{ width: '150px', height: 'auto', marginRight: 20 }}
-                            />
+                             alt=""/>
                         </div>
                         <div>
                             <div>
@@ -173,7 +173,7 @@ const MetaverseIntroduction = () => {
                                 height={0}
                                 sizes="100vw"
                                 style={{ width: '150px', height: 'auto', marginRight: 20 }}
-                            />
+                             alt=""/>
                         </div>
                         <div>
                             <div>
@@ -192,7 +192,7 @@ const MetaverseIntroduction = () => {
                                 src={VRImg}
                                 sizes="100vw"
                                 style={{ width: '150px', height: 'auto', marginRight: 20 }}
-                            />
+                             alt=""/>
                         </div>
                         <div>
                             <div>

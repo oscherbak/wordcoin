@@ -32,7 +32,7 @@ const CorpIntroduction = () => {
                         height={0}
                         sizes="100vw"
                         style={{ width: '100%', height: 'auto' }}
-                    />
+                     alt=""/>
                 </div>
                 <p>Developed History Education Board Game “Sejong” </p>
                 <p>Developed Raon Hanjul Education</p>
@@ -51,7 +51,7 @@ const CorpIntroduction = () => {
                         height={0}
                         sizes="100vw"
                         style={{ width: '100%', height: 'auto' }}
-                    />
+                     alt=""/>
                 </div>
                 <p>Duty training for customs officials</p>
                 <p>Development of the standard of
@@ -70,7 +70,7 @@ const CorpIntroduction = () => {
                         height={0}
                         sizes="100vw"
                         style={{ width: '100%', height: 'auto' }}
-                    />
+                     alt=""/>
                 </div>
                 <p>Development of complete conquest
                     of job training items for customs officials
@@ -93,7 +93,7 @@ const CorpIntroduction = () => {
                         height={0}
                         sizes="100vw"
                         style={{ width: '100%', height: 'auto' }}
-                    />
+                     alt=""/>
                 </div>
                 <p>Metaverse, Korean language education for foreigners</p>
                 <p>Metamento development
@@ -123,7 +123,7 @@ const CorpIntroduction = () => {
                             height={0}
                             sizes="100vw"
                             style={{ width: '100%', height: 'auto' }}
-                        />
+                         alt=""/>
                     </div>
                     <div className='col-6'>
                         <h2>CEO Lee Don Gun</h2>
