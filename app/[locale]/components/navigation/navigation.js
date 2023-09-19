@@ -23,7 +23,7 @@ const Navigation = () => {
 
     return <Navbar collapseOnSelect className={styles.navigation} expand="lg" bg="light" variant="light">
         <Navbar.Brand href="/">
-            <Image src={LogoImg} />
+            <Image src={LogoImg}  alt=""/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
@@ -37,7 +37,7 @@ const Navigation = () => {
                 <Nav.Link href={`${locale}/partners`}> <span className={styles.linkText}> {t('partners')} </span></Nav.Link>
                 <Nav.Link href='#'>
                     <span className={styles.linkText}>
-                        <Image src={UsaImg} height={20} onClick={(e) => handleLanguageIconClick(e, 'en')} /> | <Image src={KoreaImg} height={25} onClick={(e) => handleLanguageIconClick(e, 'kr')}  />
+                        <Image src={UsaImg} height={20} onClick={(e) => handleLanguageIconClick(e, 'en')}  alt=""/> | <Image src={KoreaImg} height={25} onClick={(e) => handleLanguageIconClick(e, 'kr')}   alt=""/>
                     </span>
                 </Nav.Link>
                 {/*<NavDropdown title="Dropdown" id="collasible-nav-dropdown">*/}
