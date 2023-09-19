@@ -6,6 +6,11 @@
     border-radius: 0;
 }
 
+.custom-page-container {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
 .btn-orange {
     background: #fdc657;
     border-color: #fdc657;
@@ -13,4 +18,8 @@
 
 .btn-orange:hover {
     opacity: 0.9;
+}
+
+.blue-colored-text {
+    color: #08b8f1;
 }

@@ -1,6 +1,7 @@
 import {NextIntlClientProvider, useLocale, useMessages, useTranslations} from 'next-intl';
 import {notFound} from 'next/navigation';
 import Navigation from "./components/navigation/navigation";
+import '../globals.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import styles from './layout.module.scss';
 
