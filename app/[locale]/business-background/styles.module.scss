@@ -1,0 +1,21 @@
+.businessBackground {
+    .redTitle {
+        color: #ff6961
+    }
+
+    .expanstionBlock {
+        height: 260px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+        &.block1 {
+            background-image: url("./assets/world.png");
+        }
+
+        &.block2 {
+            background-image: url("./assets/items.png");
+        }
+    }
+}
