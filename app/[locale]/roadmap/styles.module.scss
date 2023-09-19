@@ -1,0 +1,52 @@
+.roadmap {
+    .circle {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #08b8f1;
+        font-weight: bold;
+        margin-right: 15px;
+
+        &.blue {
+            background-color: #08b8f1;
+        }
+
+        &.green {
+            background-color: #3cb73c;
+        }
+
+        &.orange {
+            background-color: #fdc657;
+        }
+
+        &.red {
+            background-color: #ff6961;
+        }
+
+        .internalCircle {
+            background-color: white;
+            border-radius: 50%;
+            height: 25px;
+            width: 25px;
+        }
+    }
+
+    .textBlue {
+        color: #08b8f1;
+    }
+
+    .textGreen {
+        color: #3cb73c;
+    }
+
+    .textOrange {
+        color: #fdc657;
+    }
+
+    .textRed {
+        color: #ff6961;
+    }
+}

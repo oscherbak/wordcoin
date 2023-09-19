@@ -1,7 +1,7 @@
 import {useLocale, useTranslations} from "next-intl";
 import Image from 'next/image';
 import styles from './styles.module.scss';
-import Label from '../components/label/label';
+import Label from '../../components/label/label';
 import ChartImg from "./assets/chart.png";
 
 const BusinessBackground = () => {
@@ -24,7 +24,8 @@ const BusinessBackground = () => {
                     height={0}
                     sizes="100vw"
                     style={{ width: '100%', height: 'auto' }}
-                 alt=""/>
+                    alt=""
+                />
             </div>
             <div className='col-lg-6 mb-3'>
                 <h5><p>1st and 2nd place of which makes Korea&apos;s cultural content hard to enjoy</p></h5>

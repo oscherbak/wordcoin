@@ -5,7 +5,8 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {useTranslations, useMessages, useLocale} from "next-intl";
 import Image from 'next/image';
-import LogoImg from '../../assets/logo.png';
+import WordCoinLogoImg from '../../assets/WordCoinLogo.png';
+import WordCoinLogoKoreanImg from '../../assets/WordCoinLogoKor.png';
 import UsaImg from './assets/usa.png';
 import KoreaImg from './assets/korea.png';
 import styles from './navigation.module.scss';
@@ -23,7 +24,9 @@ const Navigation = () => {
 
     return <Navbar collapseOnSelect className={styles.navigation} expand="lg" bg="light" variant="light">
         <Navbar.Brand href="/">
-            <Image src={LogoImg}  alt=""/>
+            {locale === 'kr' ?
+                <Image src={WordCoinLogoKoreanImg} height={0} width={0} style={{ height: 35, width: 'auto' }} alt=""/> :
+                <Image src={WordCoinLogoImg} height={0} width={0} style={{ height: 35, width: 'auto' }} alt=""/> }
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">

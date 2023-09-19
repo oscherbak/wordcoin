@@ -1,7 +1,7 @@
 import {useLocale, useTranslations} from "next-intl";
 import Image from 'next/image';
 import styles from './styles.module.scss';
-import Label from '../components/label/label';
+import Label from '../../components/label/label';
 import StreetsImg from './assets/streets.png';
 import CityImg from './assets/city.png';
 import TrainingImg from './assets/training.png';
