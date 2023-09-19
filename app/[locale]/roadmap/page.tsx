@@ -86,7 +86,7 @@ const Roadmap = () => {
                         <ul>
                             <li>Launch of sequential subscription services based on overseas institutions and universities secured through advisory bodies and faculty members</li>
                             <li>Of the 1,408 universities in 107 countries operating Korean language/Korean studies courses, 18 universities participating in the KF Global e-School Korean Language Education Project (Korea Foundation)</li>
-                            <li>Out of 1,900 schools in 118 countries (estimated by 100,000 students), the overseas Korean school council's affiliated school</li>
+                            <li>Out of 1,900 schools in 118 countries (estimated by 100,000 students), the overseas Korean school council&apos;s affiliated school</li>
                         </ul>
                     </div>
                 </div>
