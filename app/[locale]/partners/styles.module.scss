@@ -1,0 +1,35 @@
+.partners {
+    .circle {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #08b8f1;
+        font-weight: bold;
+        margin-right: 10px;
+
+        .internalCircle {
+            background-color: white;
+            border-radius: 50%;
+            height: 25px;
+            width: 25px;
+        }
+    }
+
+    .textBlue {
+        color: #08b8f1;
+        font-size: 20px;
+    }
+
+    .backgroundBlue {
+        background-color: #08b8f1;
+    }
+
+    .line {
+        height: 2px;
+        background-color: #08b8f1;
+        margin-bottom: 15px;
+    }
+}
