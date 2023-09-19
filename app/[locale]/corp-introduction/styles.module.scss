@@ -1,0 +1,25 @@
+.corpIntroduction {
+    .circle {
+        margin: 0 auto;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #08b8f1;
+        font-size: 27px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .secondaryText {
+        font-size: 15px;
+        color: grey;
+    }
+
+    .tinyText {
+        font-size: 13px;
+        color: grey;
+    }
+}

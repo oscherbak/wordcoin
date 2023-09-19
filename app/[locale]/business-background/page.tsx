@@ -3,8 +3,6 @@ import Image from 'next/image';
 import styles from './styles.module.scss';
 import Label from '../components/label/label';
 import ChartImg from "./assets/chart.png";
-import WorldImg from "./assets/world.png";
-import ItemsImg from "./assets/items.png";
 
 const BusinessBackground = () => {
     const locale = useLocale();
@@ -91,7 +89,7 @@ const BusinessBackground = () => {
                 <p>Status of Sejong Institute around the world (244 locations in 84 countries)</p>
 
                 <div>- 2021 Sejong Institute budget increased by 44.9% year-on-year (51.3 billion)</div>
-                <div>- Ministry of Education's 2021 budget increased 100% year-on-year</div>
+                <div>- Ministry of Education&apos;s 2021 budget increased 100% year-on-year</div>
             </div>
             <div className='col-lg-6 col-md-6 mb-5'>
                 <div className={`${styles.expanstionBlock} ${styles.block2}`} />
