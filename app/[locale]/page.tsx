@@ -1,12 +1,12 @@
 import {useLocale, useTranslations} from 'next-intl';
 import styles from './page.module.scss';
 import Link from "next/link";
-import BusinessBackground from "./landing-components/business-background";
-import MetaverseIntroduction from "./landing-components/metaverse-introduction";
-import CorpIntroduction from "./landing-components/corp-introduction";
-import Roadmap from "./landing-components/roadmap";
-import CoinDistribution from "./landing-components/coin-distribution";
-import Partners from "./landing-components/partners";
+import BusinessBackground from "./homepage-components/business-background";
+import MetaverseIntroduction from "./homepage-components/metaverse-introduction";
+import CorpIntroduction from "./homepage-components/corp-introduction";
+import Roadmap from "./homepage-components/roadmap";
+import CoinDistribution from "./homepage-components/coin-distribution";
+import Partners from "./homepage-components/partners";
 
 const Index = () => {
   const t = useTranslations('Index');
