@@ -1,5 +1,6 @@
 import {useLocale, useTranslations} from 'next-intl';
 import styles from './page.module.scss';
+import Link from "next/link";
 
 const Index = () => {
   const t = useTranslations('Index');
@@ -9,9 +10,9 @@ const Index = () => {
       <div className={styles.content}>
         <div className={`text-center ${styles.text}`}>{t('header')}</div>
         <div className='text-center'>
-          <button className='btn btn-lg custom-btn btn-orange btn-warning'>
+          <Link href='/metaverse-introduction' className='btn btn-lg custom-btn btn-orange btn-warning'>
             {t('CTAText')}&nbsp;&nbsp;→
-          </button>
+          </Link>
         </div>
       </div>
     </div>

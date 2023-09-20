@@ -40,7 +40,7 @@ const Navigation = () => {
                 <Nav.Link href={`/partners`}> <span className={styles.linkText}> {t('partners')} </span></Nav.Link>
                 <Nav.Link href='#'>
                     <span className={styles.linkText}>
-                        <Image src={UsaImg} height={20} onClick={(e) => handleLanguageIconClick(e, 'en')}  alt=""/> | <Image src={KoreaImg} height={25} onClick={(e) => handleLanguageIconClick(e, 'kr')}   alt=""/>
+                        <Image src={UsaImg} height={20} onClick={(e) => handleLanguageIconClick(e, 'en')}  alt=""/> <Image src={KoreaImg} height={25} onClick={(e) => handleLanguageIconClick(e, 'kr')}   alt=""/>
                     </span>
                 </Nav.Link>
                 {/*<NavDropdown title="Dropdown" id="collasible-nav-dropdown">*/}
