@@ -4,12 +4,11 @@ import Image from "next/image";
 import PartnersImg from "./assets/partners.png";
 
 const Partners = () => {
-    const locale = useLocale();
     const t = useTranslations('Partners');
 
     return <div className={`${styles.partners} container custom-page-container`}>
         <h2>
-            Partners
+            {t('header')}
         </h2>
         <br/>
         <br/>
@@ -31,15 +30,15 @@ const Partners = () => {
                         </div>
                     </div>
                     <div className={`d-flex align-items-center ${styles.textBlue}`}>
-                        <div><b>Korean</b></div>
+                        <div><b>{t('korean')}</b></div>
                     </div>
                 </div>
                 <div className={styles.line} />
-                <p><b>Korea Cultural Information Service (KCISA)</b></p>
-                <p><b>College of English Cyber University K-STUDY Center</b></p>
-                <p><b>Yeoju University Sejong Institute</b></p>
-                <p><b>Kyung Hee Cyber University Global Korean Studies Institute</b></p>
-                <p><b>Korea Cultural Heritage Research Center</b></p>
+                <p><b>{t('KCISA')}</b></p>
+                <p><b>{t('college')}</b></p>
+                <p><b>{t('sejong')}</b></p>
+                <p><b>{t('cyber')}</b></p>
+                <p><b>{t('heritage')}</b></p>
             </div>
             <div className='col-lg-4 col-md-4 mb-5'>
                 <div className='d-flex mb-3'>
@@ -49,12 +48,12 @@ const Partners = () => {
                         </div>
                     </div>
                     <div className={`d-flex align-items-center ${styles.textBlue}`}>
-                        <div><b>Foreign</b></div>
+                        <div><b>{t('foreign')}</b></div>
                     </div>
                 </div>
                 <div className={styles.line} />
-                <p><b>Thang Long University of Vietnam</b></p>
-                <p><b>Korean Cultural Center in Dhaka, Bangladesh</b></p>
+                <p><b>{t('vietnam')}</b></p>
+                <p><b>{t('dhaka')}</b></p>
             </div>
             <div className='col-lg-4 col-md-4 mb-5'>
                 <div className='d-flex mb-3'>
@@ -64,15 +63,15 @@ const Partners = () => {
                         </div>
                     </div>
                     <div className={`d-flex align-items-center ${styles.textBlue}`}>
-                        <div><b>Educational Advisory</b></div>
+                        <div><b>{t('advisory')}</b></div>
                     </div>
                 </div>
                 <div className={styles.line} />
-                <p><b>Professor Kim Ji-hyung (former president of the Bilingual Society)</b></p>
-                <p><b>Professor Kim Jin-hae (Kyung Hee University)</b></p>
-                <p><b>Professor Ahn Sung-beom (Kyung Hee University)</b></p>
-                <p><b>Professor Lee Min-woo (Korea University of Foreign Studies)</b></p>
-                <p><b>Professor Park Hyun-mo (Yeoju University)</b></p>
+                <p><b>{t('person1')}</b></p>
+                <p><b>{t('person2')}</b></p>
+                <p><b>{t('person3')}</b></p>
+                <p><b>{t('person4')}</b></p>
+                <p><b>{t('person5')}</b></p>
             </div>
         </div>
     </div>

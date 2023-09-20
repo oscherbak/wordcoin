@@ -242,5 +242,23 @@
     "expenses": "Promotional expenses",
     "partners": "Partners",
     "alliance": "Agency and company alliance"
+  },
+  "Partners": {
+    "header": "Partners",
+    "korean": "Korean",
+    "KCISA": "Korea Cultural Information Service (KCISA)",
+    "college": "College of English Cyber University K-STUDY Center",
+    "sejong": "Yeoju University Sejong Institute",
+    "cyber": "Kyung Hee Cyber University Global Korean Studies Institute",
+    "heritage": "Korea Cultural Heritage Research Center",
+    "foreign": "Foreign",
+    "vietnam": "Thang Long University of Vietnam",
+    "dhaka": "Korean Cultural Center in Dhaka, Bangladesh",
+    "advisory": "Educational Advisory",
+    "person1": "Professor Kim Ji-hyung (former president of the Bilingual Society)",
+    "person2": "Professor Kim Jin-hae (Kyung Hee University)",
+    "person3": "Professor Ahn Sung-beom (Kyung Hee University)",
+    "person4": "Professor Lee Min-woo (Korea University of Foreign Studies)",
+    "person5": "Professor Park Hyun-mo (Yeoju University)"
   }
 }
