@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 const Roadmap = () => {
     const t = useTranslations('Roadmap');
 
-    return <div className={`${styles.roadmap} container custom-page-container`}>
+    return <div id='roadmap' className={`${styles.roadmap} container custom-page-container`}>
         <h2>
             {t('header')}
         </h2>

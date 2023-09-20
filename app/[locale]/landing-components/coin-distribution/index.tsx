@@ -8,7 +8,7 @@ const CoinDistribution = () => {
     const locale = useLocale();
     const t = useTranslations('CoinDistribution');
 
-    return <div className={`${styles.coinDistribution} container custom-page-container`}>
+    return <div id='coin-distribution' className={`${styles.coinDistribution} container custom-page-container`}>
         <h2>
             {t('header')}
         </h2>

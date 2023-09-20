@@ -1,13 +1,13 @@
 import {useLocale, useTranslations} from "next-intl";
 import Image from 'next/image';
 import styles from './styles.module.scss';
-import Label from '../../components/label/label';
+import Label from '../../../components/label/label';
 import ChartImg from "./assets/chart.png";
 
 const BusinessBackground = () => {
     const t = useTranslations('BusinessBackground');
 
-    return <div className={`${styles.businessBackground} container custom-page-container`}>
+    return <div id='business-background' className={`${styles.businessBackground} container custom-page-container`}>
         <h2>
             {t('header')}
         </h2>

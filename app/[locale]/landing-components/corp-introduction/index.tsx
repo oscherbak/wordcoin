@@ -1,8 +1,7 @@
-import {useLocale, useTranslations} from "next-intl";
+import {useTranslations} from "next-intl";
 import Image from 'next/image';
 import styles from './styles.module.scss';
-import Label from '../../components/label/label';
-import ChartImg from "../business-background/assets/chart.png";
+import Label from '../../../components/label/label';
 import GameImg from './assets/games.png';
 import Game2Img from './assets/games2.png';
 import Game3Img from './assets/games3.png';
@@ -11,7 +10,7 @@ import PhotoImg from './assets/photo.png';
 const CorpIntroduction = () => {
     const t = useTranslations('CorpIntroduction');
 
-    return <div className={`${styles.corpIntroduction} container custom-page-container`}>
+    return <div id='corp-introduction' className={`${styles.corpIntroduction} container custom-page-container`}>
         <h2>
             {t('header')}
         </h2>

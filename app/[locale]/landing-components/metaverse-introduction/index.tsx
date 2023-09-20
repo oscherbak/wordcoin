@@ -1,7 +1,7 @@
 import {useTranslations} from "next-intl";
 import Image from 'next/image';
 import styles from './styles.module.scss';
-import Label from '../../components/label/label';
+import Label from '../../../components/label/label';
 import StreetsImg from './assets/streets.png';
 import CityImg from './assets/city.png';
 import TrainingImg from './assets/training.png';
@@ -13,7 +13,7 @@ import HistoryImg from './assets/history.png';
 const MetaverseIntroduction = () => {
     const t = useTranslations('MetaverseIntroduction');
 
-    return <div className={`${styles.metaverseIntroduction} container custom-page-container`}>
+    return <div id='metaverse-introduction' className={`${styles.metaverseIntroduction} container custom-page-container`}>
         <h2>
             {t('header')}
         </h2>

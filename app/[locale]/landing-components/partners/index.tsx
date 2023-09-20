@@ -6,7 +6,7 @@ import PartnersImg from "./assets/partners.png";
 const Partners = () => {
     const t = useTranslations('Partners');
 
-    return <div className={`${styles.partners} container custom-page-container`}>
+    return <div id='partners' className={`${styles.partners} container custom-page-container`}>
         <h2>
             {t('header')}
         </h2>

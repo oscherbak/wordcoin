@@ -32,12 +32,12 @@ const Navigation = () => {
         <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
             <Nav className="mr-auto">
                 <Nav.Link href="/"><span className={styles.linkText}> {t('main')} </span></Nav.Link>
-                <Nav.Link href={`/metaverse-introduction`}><span className={styles.linkText}> {t('metaverseIntroduction')} </span></Nav.Link>
-                <Nav.Link href={`/business-background`}><span className={styles.linkText}> {t('business')} </span></Nav.Link>
-                <Nav.Link href={`/corp-introduction`}><span className={styles.linkText}> {t('corpIntro')} </span></Nav.Link>
-                <Nav.Link href={`/roadmap`}><span className={styles.linkText}> {t('roadmap')} </span></Nav.Link>
-                <Nav.Link href={`/coin-distribution`}><span className={styles.linkText}> {t('coinDistribution')} </span></Nav.Link>
-                <Nav.Link href={`/partners`}> <span className={styles.linkText}> {t('partners')} </span></Nav.Link>
+                <Nav.Link href={`#metaverse-introduction`}><span className={styles.linkText}> {t('metaverseIntroduction')} </span></Nav.Link>
+                <Nav.Link href={`#business-background`}><span className={styles.linkText}> {t('business')} </span></Nav.Link>
+                <Nav.Link href={`#corp-introduction`}><span className={styles.linkText}> {t('corpIntro')} </span></Nav.Link>
+                <Nav.Link href={`#roadmap`}><span className={styles.linkText}> {t('roadmap')} </span></Nav.Link>
+                <Nav.Link href={`#coin-distribution`}><span className={styles.linkText}> {t('coinDistribution')} </span></Nav.Link>
+                <Nav.Link href={`#partners`}> <span className={styles.linkText}> {t('partners')} </span></Nav.Link>
                 <Nav.Link href='#'>
                     <span className={styles.linkText}>
                         <Image src={UsaImg} height={20} onClick={(e) => handleLanguageIconClick(e, 'en')}  alt=""/> <Image src={KoreaImg} height={25} onClick={(e) => handleLanguageIconClick(e, 'kr')}   alt=""/>
