@@ -1,9 +1,8 @@
 import {useLocale, useTranslations} from 'next-intl';
 import styles from './page.module.scss';
 
-export default function Index() {
+const Index = () => {
   const t = useTranslations('Index');
-  const locale = useLocale();
 
   return <div className={styles.home}>
     <div className={styles.hero}>
@@ -23,3 +22,5 @@ export default function Index() {
     </div>
   </div>;
 }
+
+export default Index;

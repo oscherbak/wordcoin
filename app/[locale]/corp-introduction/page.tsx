@@ -131,7 +131,7 @@ const CorpIntroduction = () => {
                             <li>Kyung Hee University Bachelor of KoreanLanguage and Literature</li>
                             <li>Gamification / Edutech Specialist</li>
                             <li>21 years of development experience / -23 years of commercialization</li>
-                            <li>Awarded the Chief Engineer&apos;s Award</li>
+                            <li>Awarded the Chief Engineer's Award</li>
                             <li>2 cases of patent registration</li>
                             <li>Institutional Education / Game Business 12</li>
                             <li>More than 100 lecture light broadcasts</li>
