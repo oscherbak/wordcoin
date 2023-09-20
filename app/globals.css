@@ -19,3 +19,23 @@
 .blue-colored-text {
     color: #08b8f1;
 }
+
+@media (max-width: 991px) {
+    #responsive-navbar-nav {
+        position: absolute;
+        top: 60px;
+        background: white;
+        width: 100%;
+        margin-left: -15px;
+        z-index: 11111;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    #responsive-navbar-nav {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
