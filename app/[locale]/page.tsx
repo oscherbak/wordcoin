@@ -16,7 +16,7 @@ const Index = () => {
       <div className={styles.content}>
         <div className={`text-center ${styles.text}`}>{t('header')}</div>
         <div className='text-center'>
-          <a href='#metaverse-introduction' className='btn btn-lg custom-btn btn-orange btn-warning'>
+          <a href='#metaverse-introduction' className={`btn btn-lg custom-btn btn-orange btn-warning ${styles.ctaBtn}`}>
             {t('CTAText')}&nbsp;&nbsp;→
           </a>
         </div>
