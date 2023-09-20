@@ -131,5 +131,59 @@
     "status": "Status of Sejong Institute around the world (244 locations in 84 countries)",
     "budget": "- 2021 Sejong Institute budget increased by 44.9% year-on-year (51.3 billion)",
     "education": "- Ministry of Education's 2021 budget increased 100% year-on-year"
+  },
+  "CorpIntroduction": {
+    "header": "Develop Educational Software with Gamification Technology.",
+    "global": "Global",
+    "necessity": "The Necessity for Korean Language Education for Foreigners due to increase of Korean Wave Fans",
+    "boardGame": "Developed History Education Board Game “Sejong”",
+    "hanjul": "Developed Raon Hanjul Education",
+    "tourism": "Awarded Minister of Culture, Sports and Tourism Award",
+    "gameOfMonth": "Game of the Month in the second half of 2019",
+    "functional": "Functional game category. [Board game Sejong]",
+    "duty": "Duty training for customs officials",
+    "standard": "Development of the standard of item classification and item classification argument",
+    "customs": "Customs and Border Management Training Institute",
+    "HR": "2020 Director of Human Resources Innovation Award Awarded",
+    "officials": "Development of complete conquest of job training items for customs officials",
+    "devInstitute": "Korea Customs Human Resources Development Institute",
+    "HR22": "Awarded the 2022 Human Resources Innovation Awards",
+    "foreigners": "Metaverse, Korean language education for foreigners",
+    "metamento": "Metamento development",
+    "cultural": "Received the Korea Cultural Information Center Director Award",
+    "util": "2022 Cultural Data Utilization Contest",
+    "service": "Product Service Division [Metamento]",
+    "team": "Team",
+    "ceo": "CEO Lee Don Gun",
+    "bachelor": "Kyung Hee University Bachelor of KoreanLanguage and Literature",
+    "edutech": "Gamification / Edutech Specialist",
+    "experience": "21 years of development experience / -23 years of commercialization",
+    "chiefEng": "Awarded the Chief Engineer's Award",
+    "patent": "2 cases of patent registration",
+    "gameBusiness": "Institutional Education / Game Business 12",
+    "lecture": "More than 100 lecture light broadcasts",
+    "teamwork": "Teamwork",
+    "cpo": "CPO Choi In Woo",
+    "cpoExp": "25 years of experience",
+    "director": "Director of Development at CJ Internet Games",
+    "ribbon": "CEO of Ribbon Games (Netmarble)",
+    "funple": "Funple CTO",
+    "nellbiz": "Nellbiz Games CTO",
+    "forest": "Digital Forest CTO",
+    "LeeYoseph": {
+      "title": "Lee Yoseph, Program team leader",
+      "exp": "3 years of experience (CJ Edu, etc.)",
+      "responsibility": "Client / Server / Engine"
+    },
+    "AhnDongBong": {
+      "title": "Ahn Dong Bong, Graphics Team Leader",
+      "exp": "14 years of experience (Netmarble, etc.)",
+      "responsibility": "2D / 3D / Animation / Effect"
+    },
+    "KimJiWoon": {
+      "title": "Kim Ji Woon, Arts Team Leader",
+      "exp": "14 years of experience (Gamevil, etc.)",
+      "responsibility": "Won / UI-UX / TA"
+    }
   }
 }

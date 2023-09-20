@@ -131,5 +131,59 @@
     "status": "세종학당 전 세계의 현황 (84개국 244교육소)",
     "budget": "- 2021년 세종학당 예산은 전년대비 44.9% 증가 (513억)",
     "education": "- 교육부 2021 예산은 전년대비 100% 증가"
+  },
+  "CorpIntroduction": {
+    "header": "게임화 기술을 활용한 교육 소프트웨어 개발",
+    "global": "글로벌",
+    "necessity": "한류 팬 증가로 외국인을 위한 한국어 교육의 필요성",
+    "boardGame": "역사 교육 보드 게임 '세종' 개발",
+    "hanjul": "라온 한글 교육 개발",
+    "tourism": "문화체육관광부 장관상 수상",
+    "gameOfMonth": "2019년 하반기 '월간 게임' 수상",
+    "functional": "기능성 게임 분야. [보드 게임 '세종']",
+    "duty": "세관 공무원 직무 교육",
+    "standard": "물품 분류 및 물품 분류 논의 표준 개발",
+    "customs": "세관 및 국경 관리 교육원",
+    "HR": "2020년 인사 혁신상 수상",
+    "officials": "세관 공무원을 위한 직무 교육 항복 완료",
+    "devInstitute": "한국세관인재개발원",
+    "HR22": "2022년 인사 혁신상 수상",
+    "foreigners": "메타버스, 외국인을 위한 한국어 교육",
+    "metamento": "메타멘토 개발",
+    "cultural": "한국문화정보센터장상 수상",
+    "util": "2022 문화데이터 활용 공모전",
+    "service": "제품 서비스 부문 [메타멘토]",
+    "team": "팀",
+    "ceo": "대표이사 이돈건",
+    "bachelor": "경희대학교 한국어문학과 학사",
+    "edutech": "게임화 / 교육기술 전문가",
+    "experience": "개발 경력 21년 / 상용화 경력 -23년",
+    "chiefEng": "최고 기술자상 수상",
+    "patent": "특허 등록 2건",
+    "gameBusiness": "기관 교육 / 게임 사업 12",
+    "lecture": "100회 이상의 강의 방송",
+    "teamwork": "팀워크",
+    "cpo": "CPO 최인우",
+    "cpoExp": "경력 25년",
+    "director": "CJ인터넷게임 개발이사",
+    "ribbon": "리본게임 대표이사 (넷마블)",
+    "funple": "펀플 CTO",
+    "nellbiz": "넬비즈게임 CTO",
+    "forest": "디지털포레스트 CTO",
+    "LeeYoseph": {
+      "title": "팀장 이요셉",
+      "exp": "3년 경력 (CJ Edu 등)",
+      "responsibility": "클라이언트 / 서버 / 엔진"
+    },
+    "AhnDongBong": {
+      "title": "그래픽팀장 안동봉",
+      "exp": "14년 경력 (넷마블 등)",
+      "responsibility": "2D / 3D / 애니메이션 / 효과"
+    },
+    "KimJiWoon": {
+      "title": "아트팀장 김지운",
+      "exp": "14년 경력 (게임빌 등)",
+      "responsibility": "원 / UI-UX / TA"
+    }
   }
 }
