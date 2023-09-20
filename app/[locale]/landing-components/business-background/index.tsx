@@ -12,7 +12,6 @@ const BusinessBackground = () => {
             {t('header')}
         </h2>
         <br />
-        <br />
         <p><Label text={t('global')} /></p>
         <h4 className='blue-colored-text'><p>{t('necessity')}</p></h4>
         <div className='row'>

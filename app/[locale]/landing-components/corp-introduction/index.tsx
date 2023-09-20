@@ -15,7 +15,6 @@ const CorpIntroduction = () => {
             {t('header')}
         </h2>
         <br />
-        <br />
         <p><Label text={t('global')} /></p>
         <h5 className='blue-colored-text'><p>{t('necessity')}</p></h5>
         <br />

@@ -13,7 +13,6 @@ const CoinDistribution = () => {
             {t('header')}
         </h2>
         <br/>
-        <br/>
         <div className='row'>
             <div className='col-lg-5 col-md-6 mb-5'>
                 <Image

@@ -11,7 +11,6 @@ const Partners = () => {
             {t('header')}
         </h2>
         <br/>
-        <br/>
         <div className='mb-5'>
             <Image
                 src={PartnersImg}
