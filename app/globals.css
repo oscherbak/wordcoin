@@ -3,13 +3,8 @@
 }
 
 .custom-page-container {
-    margin-top: 80px;
+    padding-top: 80px;
     padding-bottom: 80px;
-}
-
-.content-delimiter {
-    height: 3px;
-    border-bottom: 2px dashed rgba(0, 0, 0, 0.87);
 }
 
 .btn-orange {
@@ -27,6 +22,10 @@
 
 .page-headline {
     font-size: 45px
+}
+
+.grey-bg {
+    background: #f2f2f2;
 }
 
 @media (max-width: 991px) {

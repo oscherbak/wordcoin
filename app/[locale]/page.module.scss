@@ -26,6 +26,12 @@
 
         .ctaBtn {
             border-radius: 0;
+            padding-right: 25px;
+            padding-left: 25px;
+
+            svg {
+                margin-top: -3px;
+            }
         }
 
         .content {
