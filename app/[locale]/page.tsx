@@ -28,10 +28,15 @@ const Index = () => {
       {/*</div>*/}
     </div>
     <MetaverseIntroduction />
+    <div className='content-delimiter container' />
     <BusinessBackground />
+    <div className='content-delimiter container' />
     <CorpIntroduction />
+    <div className='content-delimiter container' />
     <Roadmap />
+    <div className='content-delimiter container' />
     <CoinDistribution/>
+    <div className='content-delimiter container' />
     <Partners />
   </div>;
 }

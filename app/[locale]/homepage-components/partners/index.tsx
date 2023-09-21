@@ -7,7 +7,7 @@ const Partners = () => {
     const t = useTranslations('Partners');
 
     return <div id='partners' className={`${styles.partners} container custom-page-container`}>
-        <h2>
+        <h2 className='page-headline'>
             {t('header')}
         </h2>
         <br/>

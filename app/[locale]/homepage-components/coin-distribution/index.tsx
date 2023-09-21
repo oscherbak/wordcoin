@@ -9,7 +9,7 @@ const CoinDistribution = () => {
     const t = useTranslations('CoinDistribution');
 
     return <div id='coin-distribution' className={`${styles.coinDistribution} container custom-page-container`}>
-        <h2>
+        <h2 className='page-headline'>
             {t('header')}
         </h2>
         <br/>

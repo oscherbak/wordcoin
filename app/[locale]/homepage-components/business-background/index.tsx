@@ -8,7 +8,7 @@ const BusinessBackground = () => {
     const t = useTranslations('BusinessBackground');
 
     return <div id='business-background' className={`${styles.businessBackground} container custom-page-container`}>
-        <h2>
+        <h2 className='page-headline'>
             {t('header')}
         </h2>
         <br />

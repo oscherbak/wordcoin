@@ -14,7 +14,7 @@ const MetaverseIntroduction = () => {
     const t = useTranslations('MetaverseIntroduction');
 
     return <div id='metaverse-introduction' className={`${styles.metaverseIntroduction} container custom-page-container`}>
-        <h2>
+        <h2 className='page-headline'>
             {t('header')}
         </h2>
         <br />

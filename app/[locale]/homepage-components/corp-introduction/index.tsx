@@ -11,7 +11,7 @@ const CorpIntroduction = () => {
     const t = useTranslations('CorpIntroduction');
 
     return <div id='corp-introduction' className={`${styles.corpIntroduction} container custom-page-container`}>
-        <h2>
+        <h2 className='page-headline'>
             {t('header')}
         </h2>
         <br />

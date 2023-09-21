@@ -5,7 +5,7 @@ const Roadmap = () => {
     const t = useTranslations('Roadmap');
 
     return <div id='roadmap' className={`${styles.roadmap} container custom-page-container`}>
-        <h2>
+        <h2 className='page-headline'>
             {t('header')}
         </h2>
         <br/>

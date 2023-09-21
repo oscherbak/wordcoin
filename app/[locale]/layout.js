@@ -31,7 +31,10 @@ const LocaleLayout = async ({ children, params }) => {
             </div>
         </NextIntlClientProvider>
         <footer className={styles.footer}>
-            <span className={styles.disclaimer}>{messages.Footer?.highlight}</span>: {messages.Footer?.text}
+            <div className="container" style={{ padding: 15, borderBottom: '1px solid #474545' }}>
+                <span className={styles.disclaimer}>{messages.Footer?.highlight}</span>: {messages.Footer?.text}
+            </div>
+            <div className="text-center" style={{ fontSize: 12, padding: 15, color: 'grey' }}>Copyright © 2023. All rights reserved.</div>
         </footer>
         </body>
       </html>
