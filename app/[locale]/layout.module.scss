@@ -7,6 +7,10 @@
 
 .main {
     min-height: 90vh;
+
+    p {
+        line-height: initial;
+    }
 }
 
 .footer {
@@ -19,3 +23,4 @@
         color: red;
     }
 }
+

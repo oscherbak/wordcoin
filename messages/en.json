@@ -1,6 +1,7 @@
 {
   "Index": {
     "header": "Metaverse for Korean Education",
+    "subheader": "Korean language education and K-culture experience",
     "CTAText": "Whitepaper v1.0"
   },
   "Navigation": {
@@ -10,7 +11,8 @@
     "corpIntro": "Corp. introduction",
     "roadmap": "Roadmap",
     "coinDistribution": "Coin distribution",
-    "partners": "Partners"
+    "partners": "Partners",
+    "menu": "Menu"
   },
   "Footer": {
     "highlight": "Disclaimer",
@@ -19,6 +21,8 @@
   },
   "MetaverseIntroduction": {
     "header": "Metaverse Introduction",
+    "txt1": "It is a new type of educational metaverse that experiences and learns the use of Korean.",
+    "txt2": "It is a metaverse platform designed to contain both Korean language education and culture, and you can experience an innovative educational technology system that provides language learning through virtual reality experiences in the metaverse world.",
     "subheader": "Korean Life Experience Through Metaverse",
     "learnPlaces": "Learn culture of Korea at famous places",
     "vocabulary": "A dictionary like Metaverse which is filled with essential vocabulary",

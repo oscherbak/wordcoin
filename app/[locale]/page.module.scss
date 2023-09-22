@@ -11,58 +11,65 @@
 }
 
 .home {
-    .hero {
-        height: 750px;
-        background-image: url("../assets/Edutech-Header.jpeg");
-        background-size: cover;
-        background-position: center center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    overflow: hidden;
 
-        img {
-            width: 100%;
-        }
+    background-image: url("../assets/Edutech-Header.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 
-        .ctaBtn {
-            border-radius: 0;
-            padding-right: 25px;
-            padding-left: 25px;
-
-            svg {
-                margin-top: -3px;
-            }
-        }
-
-        .content {
-            font-size: 60px;
-            color: white;
-
-            .text {
-                animation: blink-text 1.9s linear infinite;
-            }
-
-            @media (max-width: 767px) {
-                font-size: 30px;
-                margin-bottom: 15px;
-
-                .text {
-                    margin-bottom: 15px;
-                }
-            }
-
-            button {
-                @media (min-width: 767px) {
-                    padding: 10px 33px;
-                    font-size: 23px;
-                }
-            }
-        }
-
-        @media (max-width: 767px) {
-            height: 400px;
-        }
-    }
+    //.hero {
+    //    height: 750px;
+    //    background-image: url("../assets/Edutech-Header.jpeg");
+    //    background-size: cover;
+    //    background-position: center center;
+    //    display: flex;
+    //    align-items: center;
+    //    justify-content: center;
+    //
+    //    img {
+    //        width: 100%;
+    //    }
+    //
+    //    .ctaBtn {
+    //        border-radius: 0;
+    //        padding-right: 25px;
+    //        padding-left: 25px;
+    //
+    //        svg {
+    //            margin-top: -3px;
+    //        }
+    //    }
+    //
+    //    .content {
+    //        font-size: 60px;
+    //        color: white;
+    //
+    //        .text {
+    //            animation: blink-text 1.9s linear infinite;
+    //        }
+    //
+    //        @media (max-width: 767px) {
+    //            font-size: 30px;
+    //            margin-bottom: 15px;
+    //
+    //            .text {
+    //                margin-bottom: 15px;
+    //            }
+    //        }
+    //
+    //        button {
+    //            @media (min-width: 767px) {
+    //                padding: 10px 33px;
+    //                font-size: 23px;
+    //            }
+    //        }
+    //    }
+    //
+    //    @media (max-width: 767px) {
+    //        height: 400px;
+    //    }
+    //}
 
     .businessSummary {
         padding: 50px 0 100px 0;

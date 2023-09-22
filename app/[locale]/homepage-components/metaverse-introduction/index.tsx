@@ -17,6 +17,9 @@ const MetaverseIntroduction = () => {
         <h2 className='page-headline'>
             {t('header')}
         </h2>
+        <div>{t('txt1')}</div>
+        <div>{t('txt2')}</div>
+        <div></div>
         <br />
         <p><Label text={t('core')} /></p>
         <h4 className='blue-colored-text'>{t('subheader')}</h4>
@@ -213,44 +216,44 @@ const MetaverseIntroduction = () => {
             <thead>
                 <tr>
                     <th scope="col"></th>
-                    <th scope="col" className="table-secondary">{t('apps')}</th>
-                    <th scope="col" className="table-warning">{t('NaLat')}</th>
+                    <th scope="col">{t('apps')}</th>
+                    <th scope="col">{t('NaLat')}</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">{t('platform')}</th>
-                    <td className="table-secondary">{t('2d')}</td>
-                    <td className="table-warning">{t('3d')}</td>
+                    <td>{t('2d')}</td>
+                    <td>{t('3d')}</td>
                 </tr>
                 <tr>
                     <th scope="row">{t('device')}</th>
-                    <td className="table-secondary">{t('smartphone')}</td>
-                    <td className="table-warning">{t('lowEnd')}</td>
+                    <td>{t('smartphone')}</td>
+                    <td>{t('lowEnd')}</td>
                 </tr>
                 <tr>
                     <th scope="row">{t('learnForm')}</th>
-                    <td className="table-secondary">{t('standalone')}</td>
-                    <td className="table-warning">{t('multiPlay')}</td>
+                    <td>{t('standalone')}</td>
+                    <td>{t('multiPlay')}</td>
                 </tr>
                 <tr>
                     <th scope="row">{t('learnContent')}</th>
-                    <td className="table-secondary">{t('workbook')}</td>
-                    <td className="table-warning">
+                    <td>{t('workbook')}</td>
+                    <td>
                         {t('motivation')}
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">{t('compete')}</th>
-                    <td className="table-secondary">{t('access')}</td>
-                    <td className="table-warning">
+                    <td>{t('access')}</td>
+                    <td>
                         {t('gamification')}
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">{t('efficiency')}</th>
-                    <td className="table-secondary">{t('difficult')}</td>
-                    <td className="table-warning">
+                    <td>{t('difficult')}</td>
+                    <td>
                         {t('learners')}
                     </td>
                 </tr>

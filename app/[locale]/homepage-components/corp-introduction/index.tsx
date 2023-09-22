@@ -19,86 +19,69 @@ const CorpIntroduction = () => {
         <h5 className='blue-colored-text'><p>{t('necessity')}</p></h5>
         <br />
         <br />
-        <div className='row'>
-            <div className='col-lg-3 col-md-6 mb-5'>
-                <div className={`${styles.circle} mb-4`}>2019</div>
-                <div className='mb-2'>
-                    <Image
-                        src={GameImg}
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }}
-                     alt=""/>
-                </div>
-                <p>{t('boardGame')}</p>
-                <p>{t('hanjul')}</p>
-                <p className='blue-colored-text'>{t('tourism')} </p>
-                <p>{t('gameOfMonth')}</p>
-                <p>
-                   {t('functional')}
-                </p>
-            </div>
-            <div className='col-lg-3 col-md-6 mb-5'>
-                <div className={`${styles.circle} mb-4`}>2020</div>
-                <div className='mb-2'>
-                    <Image
-                        src={Game3Img}
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }}
-                     alt=""/>
-                </div>
-                <p>{t('duty')}</p>
-                <p>{t('standard')}</p>
-                <p>{t('customs')}</p>
-                <p className='blue-colored-text'>{t('HR')}</p>
-            </div>
-            <div className='col-lg-3 col-md-6 mb-5'>
-                <div className={`${styles.circle} mb-4`}>2021</div>
-                <div className='mb-2'>
-                    <Image
-                        src={Game2Img}
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }}
-                     alt=""/>
-                </div>
-                <p>{t('officials')}</p>
 
-                <p>{t('devInstitute')}
-                </p>
-                <p className='blue-colored-text'>
-                    {t('HR22')}
-                </p>
-            </div>
-            <div className='col-lg-3 col-md-6 mb-5'>
-                <div className={`${styles.circle} mb-4`}>2022</div>
-                <div className='mb-2'>
-                    <Image
-                        src={GameImg}
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }}
-                     alt=""/>
-                </div>
-                <p>{t('foreigners')}</p>
-                <p>{t('metamento')}
-                </p>
-                <p className='blue-colored-text'>
-                    {t('cultural')}
-                </p>
-                <p>
-                    {t('util')}
-                </p>
-                <p>
-                    {t('service')}
-                </p>
-            </div>
+
+        <div className="container">
+            <ul className="timeline">
+                <li>
+                    <div className="timeline-image blue">2019</div>
+                    <div className="timeline-panel">
+                        <h4 className='subheading'><b>{t('tourism')}</b> </h4>
+                        <p>{t('boardGame')}</p>
+                        <p>{t('hanjul')}</p>
+                        <p>{t('gameOfMonth')}</p>
+                        <p>
+                            {t('functional')}
+                        </p>
+                    </div>
+                </li>
+                <li className="timeline-inverted ">
+                    <div className="timeline-image blue">2020</div>
+                    <div className="timeline-panel">
+                        <h4 className='subheading'><b>{t('HR')}</b></h4>
+                        <p>{t('duty')}</p>
+                        <p>{t('standard')}</p>
+                        <p>{t('customs')}</p>
+                    </div>
+                </li>
+                <li>
+                    <div className="timeline-image blue">2021</div>
+                    <div className="timeline-panel">
+                        <h4 className='subheading'>
+                            <b>{t('HR22')}</b>
+                        </h4>
+                        <p>{t('officials')}</p>
+                        <p>{t('devInstitute')}
+                        </p>
+                    </div>
+                </li>
+                <li className="timeline-inverted ">
+                    <div className="timeline-image blue">2022</div>
+                    <div className="timeline-panel">
+                        <h4 className='subheading'>
+                            <b>{t('cultural')}</b>
+                        </h4>
+                        <p>{t('foreigners')}</p>
+                        <p>{t('metamento')}
+                        </p>
+                        <p>
+                            {t('util')}
+                        </p>
+                        <p>
+                            {t('service')}
+                        </p>
+                    </div>
+                </li>
+                <li className="timeline-inverted">
+                    <div className="timeline-image">
+                        2023
+                    </div>
+                </li>
+            </ul>
         </div>
+        <br/>
+        <br/>
+        <br/>
         <br/>
         <br/>
         <br/>
@@ -106,7 +89,7 @@ const CorpIntroduction = () => {
             <div className='col-lg-6 mb-5'>
                 <h1 className='blue-colored-text mb-2'>{t('team')}</h1>
                 <div className='row'>
-                    <div className='col-6'>
+                    <div className='col-4'>
                         <Image
                             src={PhotoImg}
                             width={0}
@@ -115,7 +98,7 @@ const CorpIntroduction = () => {
                             style={{ width: '100%', height: 'auto' }}
                          alt=""/>
                     </div>
-                    <div className='col-6'>
+                    <div className='col-8' style={{ paddingRight: 25 }}>
                         <h2>{t('ceo')}</h2>
                         <ul>
                             <li>{t('bachelor')}</li>

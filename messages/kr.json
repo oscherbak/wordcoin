@@ -1,6 +1,7 @@
 {
   "Index": {
     "header": "한국 교육을 위한 메타버스",
+    "subheader": "한국어 교육과 K문화 체험",
     "CTAText": "백서 v1.0"
   },
   "Navigation": {
@@ -10,7 +11,8 @@
     "corpIntro": "회사 소개",
     "roadmap": "로드맵",
     "coinDistribution": "코인 분배",
-    "partners": "파트너"
+    "partners": "파트너",
+    "menu": "메뉴"
   },
   "Footer": {
     "highlight": "면책조항",
@@ -19,6 +21,8 @@
   },
   "MetaverseIntroduction": {
     "header": "메타버스 소개",
+    "txt1": "It is a new type of educational metaverse that experiences and learns the use of Korean.",
+    "txt2": "It is a metaverse platform designed to contain both Korean language education and culture, and you can experience an innovative educational technology system that provides language learning through virtual reality experiences in the metaverse world.",
     "subheader": "메타버스를 통한 한국 생활 경험",
     "learnPlaces": "유명한 장소에서 한국 문화 배우기",
     "vocabulary": "필수 어휘로 가득한 메타버스와 같은 사전",
