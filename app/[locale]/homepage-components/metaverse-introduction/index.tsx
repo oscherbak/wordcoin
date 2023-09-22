@@ -19,7 +19,7 @@ const MetaverseIntroduction = () => {
         </h2>
         <div>{t('txt1')}</div>
         <div>{t('txt2')}</div>
-        <div></div>
+        <div>{t('txt3')}</div>
         <br />
         <p><Label text={t('core')} /></p>
         <h4 className='blue-colored-text'>{t('subheader')}</h4>

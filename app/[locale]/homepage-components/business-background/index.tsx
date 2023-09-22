@@ -3,6 +3,8 @@ import Image from 'next/image';
 import styles from './styles.module.scss';
 import Label from '../../../components/label/label';
 import ChartImg from "./assets/chart.png";
+import MapImg from "./assets/map.png";
+import ListImg from "./assets/list.png";
 
 const BusinessBackground = () => {
     const t = useTranslations('BusinessBackground');
@@ -81,14 +83,29 @@ const BusinessBackground = () => {
         <p>{t('sejong')}</p>
         <div className='row'>
             <div className='col-lg-6 col-md-6 mb-5'>
-                <div className={`${styles.expanstionBlock} ${styles.block1} mb-2`} />
+                <Image
+                    src={MapImg}
+                    className='mb-2'
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                    alt=""
+                />
                 <p>{t('status')}</p>
-
                 <div>{t('budget')}</div>
                 <div>{t('education')}</div>
             </div>
             <div className='col-lg-6 col-md-6 mb-5'>
-                <div className={`${styles.expanstionBlock} ${styles.block2}`} />
+                <Image
+                    src={ListImg}
+                    className='mb-2'
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                    alt=""
+                />
             </div>
         </div>
     </div>

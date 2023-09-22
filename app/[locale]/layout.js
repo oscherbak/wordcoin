@@ -20,6 +20,11 @@ const LocaleLayout = async ({ children, params }) => {
 
   return (
       <html lang={locale}>
+        <head>
+            <title>
+                Wordcoin: Korean Edutech Metaverse
+            </title>
+        </head>
         <body>
             <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
             {/*<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />*/}
