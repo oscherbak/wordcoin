@@ -1,9 +1,31 @@
 .metaverseIntroduction {
+    padding-bottom: 0;
+
     .imageContainer {
         height: 300px;
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 15px;
+    }
+
+    .block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        &.red {
+            background-image: linear-gradient(to left bottom, #FFFFFF, #FDFCFE, #FDFAFD, #FDF7FA, #FDF4F7, #FDF4F7, #FDF4F7, #FDF4F7, #FDF7FA, #FDFAFD,
+                    #FDFCFE, #FFFFFF);
+        }
+
+        &.blue {
+            background-image: linear-gradient(to left bottom, #FFFFFF, #FDFEFF, #F9FEFF, #F3FEFF, #EEFEFF, #EEFEFF, #EEFEFF, #EEFEFF, #F3FEFF, #F9FEFF,
+                    #FDFEFF, #FFFFFF);
+        }
+
+        &.yellow {
+            background-image: linear-gradient(to left bottom, #FFFFFF, #FFFDFF, #FFFBFB, #FFFAF4, #FFFBEE, #FFFBEE, #FFFBEE, #FFFBEE, #FFFAF4, #FFFBFB,
+                    #FFFDFF, #FFFFFF);
+        }
     }
 }

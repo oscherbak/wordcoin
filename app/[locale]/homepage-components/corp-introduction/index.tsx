@@ -86,19 +86,10 @@ const CorpIntroduction = () => {
         <br/>
         <br/>
         <div className='row'>
-            <div className='col-lg-6 mb-5'>
+            <div className='col-lg-5 mb-5'>
                 <h1 className='blue-colored-text mb-2'>{t('team')}</h1>
                 <div className='row'>
-                    <div className='col-4'>
-                        <Image
-                            src={PhotoImg}
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            style={{ width: '100%', height: 'auto' }}
-                         alt=""/>
-                    </div>
-                    <div className='col-8' style={{ paddingRight: 25 }}>
+                    <div className='col-10' style={{ paddingRight: 25 }}>
                         <h2>{t('ceo')}</h2>
                         <ul>
                             <li>{t('bachelor')}</li>
@@ -112,7 +103,7 @@ const CorpIntroduction = () => {
                     </div>
                 </div>
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg-7'>
                 <h2 className='blue-colored-text mb-2'>{t('teamwork')}</h2>
                 <div style={{height: 3, backgroundColor: '#08b8f1', marginBottom: 15}} />
                 <div className='row'>
