@@ -2,13 +2,14 @@ import {useTranslations} from "next-intl";
 import Image from 'next/image';
 import styles from './styles.module.scss';
 import Label from '../../../components/label/label';
-import StreetsImg from './assets/streets.png';
-import CityImg from './assets/city.png';
-import TrainingImg from './assets/training.png';
-import ClockImg from './assets/clock.png';
-import LandImg from './assets/land.png';
-import VRImg from './assets/vr.png';
-import HistoryImg from './assets/history.png';
+
+const StreetsImg = '/assets/metaverse/streets.png';
+const CityImg = '/assets/metaverse/city.png';
+const TrainingImg = '/assets/metaverse/training.png';
+const ClockImg = '/assets/metaverse/clock.png';
+const LandImg = '/assets/metaverse/land.png';
+const VRImg = '/assets/metaverse/vr.png';
+const HistoryImg = '/assets/metaverse/history.png';
 
 const MetaverseIntroduction = () => {
     const t = useTranslations('MetaverseIntroduction');
@@ -202,6 +203,8 @@ const MetaverseIntroduction = () => {
                                 <div style={{width: 170}}>
                                     <Image
                                         src={VRImg}
+                                        height={0}
+                                        width={0}
                                         sizes="100vw"
                                         style={{ width: '150px', height: 'auto', marginRight: 20 }}
                                         alt=""/>
