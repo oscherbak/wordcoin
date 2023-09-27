@@ -1,7 +1,5 @@
-import {useLocale, useTranslations} from "next-intl";
+import {useTranslations} from "next-intl";
 import styles from "./styles.module.scss";
-import Image from "next/image";
-import PartnersImg from "./assets/partners.png";
 
 const Partners = () => {
     const t = useTranslations('Partners');
@@ -12,8 +10,8 @@ const Partners = () => {
         </h2>
         <br/>
         <div className='mb-5'>
-            <Image
-                src={PartnersImg}
+            <img
+                src='/assets/partners/partners.png'
                 width={0}
                 height={0}
                 sizes="100vw"

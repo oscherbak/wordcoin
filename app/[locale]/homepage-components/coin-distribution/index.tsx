@@ -1,8 +1,5 @@
 import {useLocale, useTranslations} from "next-intl";
 import styles from './styles.module.scss';
-import GameImg from "../corp-introduction/assets/games.png";
-import Image from "next/image";
-import ChartImg from './assets/chart.png';
 
 const CoinDistribution = () => {
     const locale = useLocale();
@@ -15,8 +12,8 @@ const CoinDistribution = () => {
         <br/>
         <div className='row'>
             <div className='col-lg-5 col-md-6 mb-5'>
-                <Image
-                    src={ChartImg}
+                <img
+                    src='/assets/coin/chart.png'
                     width={0}
                     height={0}
                     sizes="100vw"

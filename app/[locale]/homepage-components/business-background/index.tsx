@@ -2,9 +2,10 @@ import {useLocale, useTranslations} from "next-intl";
 import Image from 'next/image';
 import styles from './styles.module.scss';
 import Label from '../../../components/label/label';
-import ChartImg from "./assets/chart.png";
-import MapImg from "./assets/map.png";
-import ListImg from "./assets/list.png";
+
+const ChartImg = "/assets/business/chart.png";
+const MapImg = "/assets/business/map.png";
+const ListImg = "/assets/business/list.png";
 
 const BusinessBackground = () => {
     const t = useTranslations('BusinessBackground');
@@ -18,7 +19,7 @@ const BusinessBackground = () => {
         <h4 className='blue-colored-text'><p>{t('necessity')}</p></h4>
         <div className='row'>
             <div className='col-lg-6 mb-3'>
-                <Image
+                <img
                     src={ChartImg}
                     width={0}
                     height={0}
@@ -83,7 +84,7 @@ const BusinessBackground = () => {
         <p>{t('sejong')}</p>
         <div className='row'>
             <div className='col-lg-6 col-md-6 mb-5'>
-                <Image
+                <img
                     src={MapImg}
                     className='mb-2'
                     width={0}
@@ -97,7 +98,7 @@ const BusinessBackground = () => {
                 <div>{t('education')}</div>
             </div>
             <div className='col-lg-6 col-md-6 mb-5'>
-                <Image
+                <img
                     src={ListImg}
                     className='mb-2'
                     width={0}

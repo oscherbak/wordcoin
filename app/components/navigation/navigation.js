@@ -1,16 +1,6 @@
 "use client";
 
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import {useTranslations, useMessages, useLocale} from "next-intl";
-import Image from 'next/image';
-import WordCoinLogoImg from '../../assets/WordCoinLogo.png';
-import WordCoinLogoKoreanImg from '../../assets/WordCoinLogoKor.png';
-import UsaImg from './assets/usa.png';
-import KoreaImg from './assets/korea.png';
-import styles from './navigation.module.scss';
-import Link from 'next/link';
+import {useTranslations, useLocale} from "next-intl";
 
 const Navigation = () => {
     const locale = useLocale();
@@ -42,7 +32,7 @@ const Navigation = () => {
                     <li className="nav-item"><a className="nav-link" href="#coin-distribution">{t('coinDistribution')}</a></li>
                     <li className="nav-item"><a className="nav-link" href="#partners">{t('partners')}</a></li>
                     <li className="nav-item" style={{ marginTop: 5, cursor: 'pointer' }}>
-                        <Image src={UsaImg} height={20} onClick={(e) => handleLanguageIconClick(e, 'en')}  alt=""/> <Image src={KoreaImg} height={25} onClick={(e) => handleLanguageIconClick(e, 'kr')}   alt=""/>
+                        <img src='/assets/languages/usa.png' height={20} onClick={(e) => handleLanguageIconClick(e, 'en')}  alt=""/> <img src='/assets/languages/korea.png' height={24} onClick={(e) => handleLanguageIconClick(e, 'kr')}   alt=""/>
                     </li>
                 </ul>
             </div>

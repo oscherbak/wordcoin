@@ -121,7 +121,7 @@ const MetaverseIntroduction = () => {
                         <div className='col-lg-6 col-md-6 mb-5'>
                             <div className='d-flex'>
                                 <div style={{width: 170}}>
-                                    <Image
+                                    <img
                                         src={TrainingImg} width={0}
                                         height={0}
                                         sizes="100vw"
@@ -141,7 +141,7 @@ const MetaverseIntroduction = () => {
                         <div className='col-lg-6 col-md-6 mb-5'>
                             <div className='d-flex'>
                                 <div style={{width: 170}}>
-                                    <Image
+                                    <img
                                         src={HistoryImg} width={0}
                                         height={0}
                                         sizes="100vw"
@@ -161,7 +161,7 @@ const MetaverseIntroduction = () => {
                         <div className='col-lg-6 col-md-6 mb-5'>
                             <div className='d-flex'>
                                 <div style={{width: 170}}>
-                                    <Image
+                                    <img
                                         src={LandImg} width={0}
                                         height={0}
                                         sizes="100vw"
@@ -181,7 +181,7 @@ const MetaverseIntroduction = () => {
                         <div className='col-lg-6 col-md-6 mb-5'>
                             <div className='d-flex'>
                                 <div style={{width: 170}}>
-                                    <Image
+                                    <img
                                         src={ClockImg} width={0}
                                         height={0}
                                         sizes="100vw"
@@ -201,7 +201,7 @@ const MetaverseIntroduction = () => {
                         <div className='col-lg-6 col-md-6'>
                             <div className='d-flex'>
                                 <div style={{width: 170}}>
-                                    <Image
+                                    <img
                                         src={VRImg}
                                         height={0}
                                         width={0}
