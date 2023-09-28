@@ -1,5 +1,4 @@
 import {useTranslations} from "next-intl";
-import Image from 'next/image';
 import styles from './styles.module.scss';
 import Label from '../../../components/label/label';
 
@@ -29,7 +28,7 @@ const MetaverseIntroduction = () => {
                 <p><Label text={t('core')} /></p>
                 <h4 className='blue-colored-text'>{t('subheader')}</h4>
                 <p><b>{t('learnPlaces')}</b></p>
-                <Image
+                <img
                     src={StreetsImg} width={0}
                     height={0}
                     sizes="100vw"
@@ -43,7 +42,7 @@ const MetaverseIntroduction = () => {
                 <p><Label text={t('service')} /></p>
                 <h4 className='blue-colored-text'>{t('vocabulary')}</h4>
                 <p><b>{t('parts')}</b></p>
-                <Image
+                <img
                     src={CityImg} width={0}
                     height={0}
                     sizes="100vw"
